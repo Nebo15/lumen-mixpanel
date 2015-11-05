@@ -1,0 +1,19 @@
+{
+  "name": "nebo15/lumen.mixpanel",
+  "description": "Mixpanel Service Provider for lumen",
+  "keywords": ["lumen", "mixpanel"],
+  "authors": [
+    {
+      "name": "Oleh Samorai"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "mixpanel/mixpanel-php" : "2.*"
+  },
+  "autoload": {
+    "psr-4": { "Nebo15\\LumenMixpanel\\": "src" }
+  },
+  "version": "0.0.1",
+  "minimum-stability": "dev"
+}
