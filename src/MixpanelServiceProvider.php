@@ -3,7 +3,7 @@ namespace Nebo15\LumenMixpanel;
 
 use Laravel\Lumen\Application;
 use Illuminate\Support\ServiceProvider;
-use Nebo15\LumenMixpanel\Exceptions\LumenIntercomException;
+use Nebo15\LumenMixpanel\Exceptions\LumenMixpanelException;
 
 class MixpanelServiceProvider extends ServiceProvider
 {
