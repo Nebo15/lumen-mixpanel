@@ -132,6 +132,7 @@ class Mixpanel extends \Mixpanel
         if ($this->ip) {
             $values['$ip'] = $this->ip;
         }
+        $this->identify($this->identity);
         $this->track($event['event'], $values);
     }
 
